@@ -2,6 +2,11 @@
 *, *::after, *::before {
     box-sizing: border-box;
 }
+#ImagMarg{
+    color: rgb(246, 102, 1);
+    background-color: rgb(246, 102, 1);
+   height: 8%;
+}
 
 body, html {
     height: 100%;
@@ -18,9 +23,23 @@ body {
     background: #fff;
     color: #111;
 }
+#TextNav1{
+    margin-right: 2%;
 
+}
+#TextNav{
+    margin-left: 55%;
+    
+}
+#TextNavCor{
+    color: white;
+}
 
-.imglog{ width: 15%; height: 15%; margin-left: 45%;}
+.dropdown-item{
+    color: rgb(246, 102, 1);
+}
+
+.imglog{ width: 20%; height: 20%; margin-left: 50%;margin-bottom: 4%;}
 
 .carousel-inner{width: 100%; height: 500px;}
 
